@@ -29,8 +29,8 @@ video {
 }
 
 :root {
-    --main-bg-color: #0C134F;
-    --main-timer-color: #fff;
+    --main-bg-color: black;
+    --main-timer-color: white;
     --main-color: #fff;
     --font-body: "Arvo";
     --font-timer: "Bagel Fat One";
@@ -67,7 +67,7 @@ body {
 .main_break-options>button {
     color: var(--main-color);
     background: transparent;
-    border: 2px solid #fff;
+    border: 2px solid white;
     font-size: 1.3rem;
     padding: 1rem 2rem;
     border-radius: 5rem;
@@ -134,8 +134,8 @@ body {
     /* position: relative; */
 }
 .modal_close{
-    height: 2rem;
-    width: 2rem; 
+    height: 2.1rem;
+    width: 2.1rem; 
     display: flex;
     align-items: center;
     justify-content: center;
